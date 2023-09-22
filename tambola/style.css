@@ -19,6 +19,7 @@ h1{
     font-size: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 25px;
+    cursor: pointer;
 }
 table{
     border-collapse: collapse;
