@@ -6,6 +6,8 @@ const nextBtn = document.querySelector("#nextBtn");
 const numberArr = [];
 
 function clickHandler() {
+  numberHistory.style.display = "none";
+  showNumbers.innerText = "Show All Numbers"
   while (1) {
     if (numberArr.length == 91) {
       currentNumber.innerText = "Refresh The Page To Start Game Again."
@@ -21,7 +23,8 @@ function clickHandler() {
       break;
     }
   }
-}numberHistory.style.display = "none";
+}
+
 function clickHandlershowNumbers() {
   if ((numberHistory.style.display == "block")) {
     numberHistory.style.display = "none";
