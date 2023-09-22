@@ -8,13 +8,15 @@ const numberArr = [];
 function clickHandler() {
   while (1) {
     if (numberArr.length == 91) {
+      currentNumber.innerText = "Refresh The Page To Start Game Again."
+      currentNumber.style.fontSize = "1rem"
       break;
     }
     let number = Math.round(Math.random() * (90 - 1 + 1) + 1);
     if (!numberArr.includes(number)) {
       numberArr.push(number);
-      document.getElementById(number).style.backgroundColor = "#ffff00";
-      //document.getElementById(number).style.color = "#c31432";
+      document.getElementById(number).style.backgroundColor = "rgb(102,126,234)";
+      document.getElementById(number).style.color = "#fff";
       currentNumber.innerText = number;
       break;
     }

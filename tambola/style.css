@@ -1,9 +1,9 @@
 body{
     text-align: center;
-    background: linear-gradient(to right, #ffefba, #ffffff);
+    background: linear-gradient(90deg, #ffefba, #ffffff);
 }
 h1{
-    color: #2437e4;
+    color: #667eea;
     font-weight: bold;
 }
 #currentNumber{
@@ -28,17 +28,16 @@ table{
 }
 td{
     border: solid 2px #c31432;
-    padding: 5px;
-    font-weight:400;
-
+    padding: 6px;
+    font-weight:500;
 }
-button{
+#showNumbers{
     margin-top: 0.8rem;
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     margin-bottom: 1rem;
     border-radius: 25px;
-    padding: 0.5px auto;
+    padding: 0.3rem 1rem;
     cursor: pointer;
 }
 ul{
@@ -50,7 +49,8 @@ li{
     margin: 0.2rem;
     border: #c31432 solid 1px;
     padding: 0.2rem;
-    border-radius: 100%;
+    border-radius: 5px;
     width: 1rem;
     text-align: center;
+    justify-content: center;
 }
