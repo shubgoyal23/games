@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: #dad8d8;
+}
+
+.main {
+    margin-top: 5rem;
+  border: solid 1px black;
+  margin-bottom: 1rem;
+  width: 80%;
+  max-width: 280px;
+  font-size: 1.5rem;
+  align-content: center;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+#input {
+  min-height: 3rem;
+  margin: auto;
+  border: solid 1px #e9e6e6;
+  margin-bottom: 1rem;
+  padding: 15px;
+  font-size: 1.5rem;
+  align-content: center;
+  text-align: right;
+  background-color: #e9e6e6;
+  border-radius: 0px 0px 10px 10px;
+}
+button {
+  border: solid 0px black;
+  margin-bottom: 1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  align-content: center;
+  border-radius: 100%;
+  background-color: #e9e6e6;
+  cursor: pointer;
+  font-weight: 500;
+}
+#evalute{
+    background-color: rgb(236, 148, 210);
+}
+.pc{
+    background-color: rgb(173, 195, 241);
+}
