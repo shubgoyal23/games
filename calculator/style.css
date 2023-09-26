@@ -4,7 +4,7 @@ body {
 }
 
 .main {
-    margin-top: 5rem;
+  margin-top: 5vh;
   border: solid 1px black;
   margin-bottom: 1rem;
   width: 80%;
@@ -39,9 +39,9 @@ button {
   cursor: pointer;
   font-weight: 500;
 }
-#evalute{
-    background-color: rgb(236, 148, 210);
+#evalute {
+  background-color: rgb(236, 148, 210);
 }
-.pc{
-    background-color: rgb(173, 195, 241);
+.pc {
+  background-color: rgb(173, 195, 241);
 }
