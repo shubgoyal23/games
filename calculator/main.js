@@ -12,14 +12,14 @@ function clickHandler(event){
 
 function calculationHandler(){
     let value = inputOutput.innerText;
-    if (value.split("*") != value){
-        let arr = value.split("*")
+    if (value.split("x") != value){
+        let arr = value.split("x")
         let value1 = Number(arr[0])
         let value2 = Number(arr[1])
         inputOutput.innerText = `Ans: ${value1 * value2}`
     }
-    else if (value.split("/") != value){
-        let arr = value.split("/")
+    else if (value.split("÷") != value){
+        let arr = value.split("÷")
         let value1 = Number(arr[0])
         let value2 = Number(arr[1])
         inputOutput.innerText = `Ans: ${value1 / value2}`

@@ -1,14 +1,14 @@
 body {
   text-align: center;
-  background-color: #dad8d8;
+  background-color: #ebe9e9;
 }
 
 .main {
   margin-top: 5vh;
-  border: solid 1px black;
+  border: solid 1px rgb(201, 201, 201);
   margin-bottom: 1rem;
-  width: 80%;
-  max-width: 280px;
+  width: 100%;
+  max-width: 380px;
   font-size: 1.5rem;
   align-content: center;
   border-radius: 5px;
@@ -16,12 +16,12 @@ body {
   margin: auto;
 }
 #input {
-  min-height: 3rem;
+  min-height: 10rem;
   margin: auto;
   border: solid 1px #e9e6e6;
   margin-bottom: 1rem;
   padding: 15px;
-  font-size: 1.5rem;
+  font-size: 5rem;
   align-content: center;
   text-align: right;
   background-color: #e9e6e6;
@@ -30,9 +30,9 @@ body {
 button {
   border: solid 0px black;
   margin-bottom: 1rem;
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 2.5rem;
   align-content: center;
   border-radius: 100%;
   background-color: #e9e6e6;
